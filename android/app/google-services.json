@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615640516647",
+    "project_id": "servesmart-31630",
+    "storage_bucket": "servesmart-31630.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615640516647:android:0af387312c20192425e602",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Gh-YSd6O8vu-TkF4pas78ufHu1yBisc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

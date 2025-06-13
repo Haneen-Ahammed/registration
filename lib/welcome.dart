@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:registration/login.dart';
 
 class Welcomescreen extends StatelessWidget {
   const Welcomescreen({super.key});
@@ -44,7 +45,12 @@ class Welcomescreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Loginscreen()),
+                  );
+                },
                 child: Text("Login here"),
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.white,
@@ -59,10 +65,19 @@ class Welcomescreen extends StatelessWidget {
                       "Don't have a acount/",
                       style: TextStyle(
                         fontSize: 16,
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
-                    TextButton(onPressed: () {}, child: Text("Register")),
+                    TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "Register",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
